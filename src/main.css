@@ -1,3 +1,7 @@
+:root {
+  --bg-color-orange: #f24d0d;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -26,7 +30,7 @@ nav {
 }
 
 a {
-  color: #f24d0d;
+  color: var(--bg-color-orange);
   text-decoration: none;
 }
 
@@ -48,6 +52,16 @@ span {
 }
 
 strong {
-  color: #f24d0d;
+  color: var(--bg-color-orange);
   text-transform: uppercase;
+}
+
+button {
+  background-color: var(--bg-color-orange);
+  padding: 12px 16px;
+  border-radius: 7px;
+  border: none;
+  color: #ffffff;
+
+  cursor: pointer;
 }
